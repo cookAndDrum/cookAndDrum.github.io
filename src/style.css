@@ -174,11 +174,10 @@ body {
 	font-weight: 400;
 	color: hsl(0, 0%, 0%/0.7);
 	margin-top: 2.5rem;
-	font-size: clamp(0.8rem, 1vw + 1rem, 2.8rem);
-	font-weight: 400;
+	font-size: clamp(0.7rem, 1vw + 1rem, 2.8rem);
 	transform: translateY(3rem);
 	opacity: 0;
-	animation: fadeInUp 1s ease calc(7s + 2s) forwards;
+	animation: fadeInUp 1s ease calc(5s + 1s) forwards;
 }
 
 .hero-path {
@@ -186,6 +185,9 @@ body {
 	display: flex;
 	justify-content: center;
 	gap: 1rem;
+	transform: translateY(3rem);
+	opacity: 0;
+	animation: fadeInUp 1s ease calc(5s + 1s) forwards;
 }
 
 .hero-path svg{
