@@ -36,6 +36,8 @@ body {
 }
 
 .header {
+	font-family: "Roboto Slab", serif;
+	font-weight: 900;
 	background-color: var(--hd-color);
 	display: flex;
 	align-items: center;
@@ -168,6 +170,8 @@ body {
 }
 
 .subtitle {
+	font-family: "Roboto Slab", serif;
+	font-weight: 400;
 	color: hsl(0, 0%, 0%/0.7);
 	margin-top: 2.5rem;
 	font-size: clamp(0.8rem, 1vw + 1rem, 2.8rem);
